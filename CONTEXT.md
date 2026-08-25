@@ -44,6 +44,10 @@ _Avoid_: integration (as if Hindsight *is* Clay/Attio)
 A human yes required before spend or send.
 _Avoid_: approval workflow, compliance hold (unless the pack names those)
 
+**External plan**:
+A locator (Ref, Notion, Google Doc URL) whose body is not yet in-session. Treat as unread until paste, public fetch, or authenticated MCP succeeds.
+_Avoid_: treating the URL as the spec, reconstructing the plan from the repo
+
 **Judgment file**:
 Versioned markdown in a pack's `context/` (ICP, personas, exclusions, rubric) filled only from evidence.
 _Avoid_: prompt, system prompt (judgment does not live in the agent prompt)

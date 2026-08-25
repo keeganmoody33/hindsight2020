@@ -1,7 +1,6 @@
 # Exclusions
 
-No exclusion list appears in the drop. One economic preference is evidenced, not a hard rule:
-
-- **quote** [S1]: "it's cheaper to acquire the customers and then they have a large volume, versus we acquire a business with one person and it took us $1,000 to acquire that business — and we're losing money"
-
-Treat single-person / low-volume businesses as a **risk the drop flagged**, not as an approved exclusion list.
+- Geography hard kill: CA, CO, IL, TX, WA [REF].
+- Churn shapes: outdoor-heat, walking-around with idle hands, single-motion repetitive [S1][REF].
+- Franchise / previously-contacted list: not a source [REF].
+- Uninstrumented historical sends: not Outcomes [REF].

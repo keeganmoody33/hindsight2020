@@ -1,7 +1,10 @@
 # Personas
 
-The drop does not define named buyer personas (titles, jobs-to-be-done) for partner businesses. Empty on purpose.
+Two per account, always. Independent sequences.
 
-What *is* evidenced is the **operator role** Claire hired for, not a partner-side persona:
+| Persona | Signs / blocks | Sequence role |
+| --- | --- | --- |
+| Owner or GM | Signs the partnership | Half of probe |
+| Lead tech / service manager / kitchen manager | Determines whether anyone wears the kit | Half of probe |
 
-- **quote** [S5]: "This role will own the outbound and marketing strategy of commercial business partners"
+"Records 5 hours and stops" is treated as a gatekeeper failure from owner-only sequencing [S1]. Untested Prior.

@@ -1,0 +1,7 @@
+{
+  "angles": [
+    {"name": "owner-revenue", "source_doc": "ad-brief", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"name": "owner-retention", "source_doc": "ad-brief", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"name": "tech-earnings", "source_doc": "ad-brief", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"}
+  ]
+}

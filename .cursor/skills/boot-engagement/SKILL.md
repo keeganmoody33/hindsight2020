@@ -14,7 +14,7 @@ Make `engagements/<slug>/` the working context for this session.
 ## ORIENT
 
 2. Read, in order: `engagement.md`, `CONTEXT.md`, `sources.md`. Then any non-skeleton files under `context/`.
-3. Note **capabilities** listed in `engagement.md` (CRM, enrichers, sequencers, CLIs). They apply to this pack only. Hindsight is not those tools.
+3. Note **capabilities** listed in `engagement.md` (CRM, enrichers, sequencers, graph). They apply to this pack only. Hindsight is not those tools. If the pack has `schema.md`, graph skills `log-campaign` / `log-outcome` / `promote-learning` / `query-graph` apply after boot.
 
 ## ACT
 

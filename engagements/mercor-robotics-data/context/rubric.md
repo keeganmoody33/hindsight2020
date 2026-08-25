@@ -1,3 +1,3 @@
 # Rubric
 
-No scoring or qualification rubric appears in the drop. Empty until pack work cites one.
+Empty of scored examples until probe Outcomes exist. Gate math lives in `cypher/07_qualification.cypher`.

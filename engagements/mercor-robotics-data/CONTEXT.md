@@ -1,29 +1,33 @@
-# Mercor robotics-data vertical
+# Robotics-data vertical
 
-Cited terms from the 2026-08-22 scene brief. Outside research was not done for the drop; do not add company background that is not in sources.
+Cited terms only. Do not add company background that is not in sources.
 
 ## Language
 
 **Physical-AI**:
-Claire's framing of the expansion: Mercor expanding into physical-AI and scaling commercial partnerships. [S5]
+Expansion framing used in outreach [S5].
 _Avoid_: inventing a product name the drop does not use
 
 **Business commercial partnership**:
-Claire's term for a partner business, "because it's a continuing engagement" [S1]
-_Avoid_: one-off gig, single-person supplier (as the default unit)
+Continuing engagement with a partner business [S1].
+_Avoid_: one-off gig as the default unit
 
 **Egocentric video**:
-First-person footage from a camera on the worker's head, framed on their hands; licensed to AI/robotics labs for training. Kit description cited [S1], [S2] — not a direct quote of Claire.
-_Avoid_: "content", "UGC" unless a source uses those words
+First-person footage framed on the worker's hands, licensed for training [S1][S2].
+_Avoid_: "UGC" unless a source uses it
 
-**Robotics-data vertical**:
-The line of work Claire and Daniel co-lead, treated in the kit as separate from Mercor's core AI talent/expert-marketplace business [S2 paraphrase].
-_Avoid_: merging this pack with marketplace recruiting GTM
+**Prior**:
+An attributed, timestamped assertion. Status starts `untested`. Contradictions coexist.
+_Avoid_: fact, ground truth (until a Learning updates it)
 
-**Claire Gauthier**:
-Co-lead of the robotics data vertical (clairegauthier@mercor.com). [DROP]
-_Avoid_: attributing Daniel's words to her
+**Sub-vertical**:
+The testable unit (tire shops ≠ collision shops). Independently killable.
+_Avoid_: treating "Repair" as one hypothesis
 
-**Daniel Luo**:
-Co-lead of the same vertical (danielluo@mercor.com). [DROP]
-_Avoid_: "David" as a confirmed person (unresolved slip in Keegan's 8/14 mail [S4 note])
+**Buyable hours**:
+`employees × 8 × capture_ratio × sites × 21`. The qualification gate.
+_Avoid_: headcount as a substitute for hours
+
+**Probe**:
+Manual, low-volume sends from an existing mailbox, logged like any campaign.
+_Avoid_: cold sequencer on a fresh domain

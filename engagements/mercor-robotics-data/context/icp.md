@@ -1,8 +1,24 @@
 # ICP
 
-Filled only from the drop.
+Regenerated from the vertical tree (Ref plan) plus kickoff-call segments. All of this is untested Prior.
 
-- **paraphrase** [S1]: Multi-location SMBs, 3–4+ sites. Verticals named: logistics/warehousing, restaurant groups, dealership service departments, trades (HVAC named specifically).
-- **paraphrase** [S1]: Whale example on the call — a logistics operator with roughly 20 US warehouses and 5,000 workers, already in conversation with Mercor.
-- **quote** [S1]: Claire on acquisition-cost logic: "it's cheaper to acquire the customers and then they have a large volume, versus we acquire a business with one person and it took us $1,000 to acquire that business — and we're losing money"
-- **quote** [S5]: "Mercor is expanding into physical-AI, and we're scaling our commercial partnerships fast"
+## Kickoff-call segments [S1]
+
+Multi-location SMBs, 3–4+ sites. Named: logistics/warehousing, restaurant groups, dealership service, trades (HVAC named).
+
+## Wave 1 sub-verticals [REF]
+
+| Vertical | Sub-vertical | Tier seed | Why wave 1 |
+| --- | --- | --- | --- |
+| Trades | HVAC (multi-site) | B / $15 | Named on kickoff; persona test |
+| Repair | Tire & wheel | C / $12 | Densest tasks; persona test |
+| Restaurants | Pizzeria / deli | C / $12 | Angle test, persona held |
+| Hospitality | Independent motels | C / $12 | List build first; wave 2 send |
+
+## Hard kills [REF]
+
+Geography: CA, CO, IL, TX, WA. Outdoor-heat, walking-around idle hands, single-motion repetitive. Hours below the unset floor.
+
+## Hold, not kill
+
+Account with only one persona resolved.
