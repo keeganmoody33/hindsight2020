@@ -14,11 +14,13 @@ Before creating a file or skill: check whether it already exists (inbox drop, pa
 
 ## Ingest
 
-Raw material lands in [`inbox/`](inbox/). `ingest-context` turns it into `engagements/<slug>/`. Quote vs paraphrase vs unknown. Every claim tagged to a source. Empty `context/` skeletons stay empty until the drop contains that judgment.
+Raw material lands in ignored local paths under [`inbox/`](inbox/) or `engagements/<slug>/raw/`. Before ingest, apply the sensitivity and distribution gate in [`system/privacy-and-distribution.md`](system/privacy-and-distribution.md). `ingest-context` writes only minimum-necessary sanitized derivatives into tracked pack files. Quote vs paraphrase vs unknown. Every claim is tagged to a source ID without exposing a private source. Empty `context/` skeletons stay empty until the drop contains that judgment.
 
 ## Gates
 
 Drafts are the default. Paid enrichment, CRM writes, and any send (email, LinkedIn, sequencer, Slack outbound) wait for an explicit human yes in this session.
+
+Version control is distribution, not per-file access control. Private or unclear-distribution material remains local and ignored; if sensitive material is already tracked or published, stop and escalate under [`system/privacy-and-distribution.md`](system/privacy-and-distribution.md).
 
 ## Skill layers
 
