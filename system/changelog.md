@@ -8,3 +8,4 @@ Process lessons encoded into Hindsight. Pack-specific facts do not belong here.
 - Added a privacy-by-default ingest gate: raw drops remain ignored and local; tracked packs contain only minimum-necessary sanitized derivatives with source sensitivity and distribution decisions.
 - Made local raw identity immutable and content-addressed: full SHA-256 objects use create-only/no-clobber handling, with stable source IDs and matching digest locators in `sources.md`.
 - Designated README's `Vendor refresh` section as the canonical workflow for refreshing `.agents/skills/` and `skills-lock.json` together.
+- External plan URLs (Ref and similar) are locators, not specs: stop on login wall / MCP 401; do not invent the work.

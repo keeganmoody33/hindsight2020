@@ -1,6 +1,6 @@
 ---
 name: ingest-context
-description: Ingest an inbox drop (brief, transcript, notes, export) into a sanitized engagement pack with cited quotes, paraphrases, and unknowns. Use when the user drops files in inbox/, says ingest, or asks to turn raw context into a pack. Do not invent ICP, tools, or client facts.
+description: Ingest an inbox drop (brief, transcript, notes, export) into a sanitized engagement pack with cited quotes, paraphrases, and unknowns. Use when the user drops files in inbox/, says ingest, or asks to turn raw context into a pack. Do not invent ICP, tools, client facts, or tasks from an unread external plan URL.
 ---
 
 # Ingest a drop into a pack
@@ -9,7 +9,7 @@ Turn local source material into a sanitized `engagements/<slug>/` derivative. Pr
 
 ## SENSE
 
-1. Find the drop in ignored `inbox/` or another local-only path the user named. If several drops exist, ask which one unless the user already named it. Do not display raw contents while locating it.
+1. Find the drop in ignored `inbox/` or another local-only path the user named. If several drops exist, ask which one unless the user already named it. Do not display raw contents while locating it. A URL to an authenticated plan host (including `plan.ref.tools`) is not a drop until its body is in this session: paste, a publicly fetchable link, or a working Plans MCP `Read`. Sign-in HTML or HTTP 401 is a stop, not a prompt to guess the work.
 2. Apply the pre-ingest gate in [`system/privacy-and-distribution.md`](../../../system/privacy-and-distribution.md):
    - Classify sensitivity before deriving content. Raw correspondence and data containing personal contacts, compensation or commercial terms, identity or background-check information, credentials, health or financial data are sensitive.
    - Record the distribution decision. Default to **local-only** unless an authorized human explicitly approves a sanitized derivative for the repository audience. Without that approval, stop before writing tracked pack files and report the local-only decision.

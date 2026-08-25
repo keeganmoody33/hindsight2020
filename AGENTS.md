@@ -22,6 +22,8 @@ Drafts are the default. Paid enrichment, CRM writes, and any send (email, Linked
 
 Version control is distribution, not per-file access control. Private or unclear-distribution material remains local and ignored; if sensitive material is already tracked or published, stop and escalate under [`system/privacy-and-distribution.md`](system/privacy-and-distribution.md).
 
+**External plan URLs are not the plan.** A link to Ref, Notion, Google Docs, or similar is a locator, not the body. If fetch returns a sign-in page or the Plans MCP returns 401, **stop**. Do not invent tasks from the repo, a prior chat, or a similarly named local plan. Unblock with any one of: paste the markdown into this session (or an ignored `inbox/` drop), turn on public link sharing and resend the URL, or configure Ref Plans MCP here (`https://api.plan.ref.tools/mcp?plan=<id>` with `x-ref-api-key` from [ref.tools/keys](https://ref.tools/keys)).
+
 ## Skill layers
 
 - **Vendor** — [`.agents/skills/`](.agents/skills/). Follow README's canonical [Vendor refresh](README.md#vendor-refresh). Do not edit by hand; wrap in a Hindsight skill instead.

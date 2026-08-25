@@ -49,7 +49,7 @@ docs/agents/           issue tracker, triage labels, domain layout
 
 ## First run
 
-1. Put a drop in `inbox/`.
+1. Put a drop in `inbox/`. A Ref/Notion/Docs URL is not a drop until its body is pasted or publicly readable.
 2. Ask the agent to ingest it (`ingest-context`).
 3. Ask it to boot that pack before doing engagement work.
 
