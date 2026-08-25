@@ -16,9 +16,21 @@ Hindsight is the operating system. An engagement is a *pack* under `engagements/
 
 | Layer | Where | How to update |
 | --- | --- | --- |
-| Vendor (Matt Pocock) | [`.agents/skills/`](.agents/skills/) | `npx skills@latest add mattpocock/skills --agent cursor --skill '*' --copy --yes` |
+| Vendor (Matt Pocock) | [`.agents/skills/`](.agents/skills/) | Follow [Vendor refresh](#vendor-refresh). |
 | Hindsight (owned) | [`.cursor/skills/`](.cursor/skills/) | Edit in this repo. Never copy these into `.agents/skills/`. |
 | Trusted canon | [`system/trusted-resources.md`](system/trusted-resources.md) | Consult before inventing. Clone a source only when `iterate-system` says so. |
+
+## Vendor refresh
+
+From the repository root, refresh the existing vendored set only with:
+
+```sh
+npx --yes skills@latest update --project --yes
+```
+
+Review `.agents/skills/` and `skills-lock.json` together, then commit their corresponding changes together. Never hand-edit vendored skill files or commit a partial vendor/lock refresh.
+
+`skills add` is only for deliberately adding a new upstream skill or source after `iterate-system` identifies a missing capability. It is not a refresh command.
 
 Cursor loads both `.agents/skills/` and `.cursor/skills/`. Start a **new** agent chat after pulling skill changes; existing sessions will not pick them up.
 

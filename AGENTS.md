@@ -24,7 +24,7 @@ Version control is distribution, not per-file access control. Private or unclear
 
 ## Skill layers
 
-- **Vendor** — [`.agents/skills/`](.agents/skills/). Refresh with `npx skills update -y`. Do not edit by hand; wrap in a Hindsight skill instead.
+- **Vendor** — [`.agents/skills/`](.agents/skills/). Follow README's canonical [Vendor refresh](README.md#vendor-refresh). Do not edit by hand; wrap in a Hindsight skill instead.
 - **Owned** — [`.cursor/skills/`](.cursor/skills/): `ingest-context`, `boot-engagement`, `iterate-system`.
 - **Canon** — [`system/trusted-resources.md`](system/trusted-resources.md). Consult before inventing a pipeline, research loop, or ingest shape.
 
