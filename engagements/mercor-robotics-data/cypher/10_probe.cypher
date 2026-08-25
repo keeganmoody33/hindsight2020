@@ -1,5 +1,5 @@
 // Probe campaign. Same shape as any later test. Does not send.
-MERGE (h:Hypothesis {id: $hypothesisId})
+MATCH (h:Hypothesis {id: $hypothesisId})
 MERGE (c:Campaign {id: $campaignId})
 SET c.kind = 'probe',
     c.channel = 'manual_existing_mailbox',
