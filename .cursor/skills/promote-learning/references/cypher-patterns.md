@@ -12,7 +12,9 @@ MERGE (l)-[:EVIDENCED_BY]->(o)
 WITH DISTINCT l
 MATCH (p:Prior {source_doc: $sourceDoc, subject: $subject, predicate: $predicate})
 MERGE (l)-[:UPDATES]->(p)
-SET p.status = $newStatus;
+FOREACH (_ IN CASE WHEN $verdict = 'thin' THEN [] ELSE [1] END |
+  SET p.status = $newStatus
+);
 ```
 
 Canonical copy: `engagements/mercor-robotics-data/skills/references/cypher-patterns.md`.
