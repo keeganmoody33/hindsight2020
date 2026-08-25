@@ -27,7 +27,7 @@ Version control is distribution, not per-file access control. Private or unclear
 ## Skill layers
 
 - **Vendor** — [`.agents/skills/`](.agents/skills/). Follow README's canonical [Vendor refresh](README.md#vendor-refresh). Do not edit by hand; wrap in a Hindsight skill instead.
-- **Owned** — [`.cursor/skills/`](.cursor/skills/): `ingest-context`, `boot-engagement`, `iterate-system`.
+- **Owned** — [`.cursor/skills/`](.cursor/skills/): `ingest-context`, `boot-engagement`, `iterate-system`, plus graph skills `log-campaign`, `log-outcome`, `promote-learning`, `query-graph` (pack-scoped; boot first).
 - **Canon** — [`system/trusted-resources.md`](system/trusted-resources.md). Consult before inventing a pipeline, research loop, or ingest shape.
 
 On OS changes, grill with `/grill-me` or `/grill-with-docs` when the change is ambiguous. Write skills with `/writing-for-agents`. Hand off with `/handoff`.

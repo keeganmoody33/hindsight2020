@@ -1,0 +1,25 @@
+{
+  "priors": [
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "rate", "predicate": "stated_to_owner_low", "object": "12", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "rate", "predicate": "stated_to_owner_high", "object": "18", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "capture_ratio", "predicate": "approved_hours_per_shift_hour", "object": "0.50", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "margin", "predicate": "on_15_rate", "object": "0.30", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "geo.CA", "predicate": "hard_kill", "object": "CA", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "geo.CO", "predicate": "hard_kill", "object": "CO", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "geo.IL", "predicate": "hard_kill", "object": "IL", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "geo.TX", "predicate": "hard_kill", "object": "TX", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "geo.WA", "predicate": "hard_kill", "object": "WA", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"source_doc": "strategy-doc", "subject": "timeline", "predicate": "signed_environments_weeks", "object": "2-3", "asserted_by": "corpus", "asserted_at": "unknown"},
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "timeline", "predicate": "signed_environments_weeks", "object": "7-8", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "funnel", "predicate": "reply_rate", "object": "0.02", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "funnel", "predicate": "call_from_reply", "object": "0.40", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "funnel", "predicate": "close_from_call", "object": "0.25", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"source_doc": "kickoff-call", "subject": "icp_rank.logistics", "predicate": "named_segment", "object": "logistics/warehousing", "asserted_by": "S1", "asserted_at": "2026-08-18"},
+    {"source_doc": "kickoff-call", "subject": "icp_rank.restaurants", "predicate": "named_segment", "object": "restaurant groups", "asserted_by": "S1", "asserted_at": "2026-08-18"},
+    {"source_doc": "kickoff-call", "subject": "icp_rank.dealership", "predicate": "named_segment", "object": "dealership service", "asserted_by": "S1", "asserted_at": "2026-08-18"},
+    {"source_doc": "kickoff-call", "subject": "icp_rank.trades", "predicate": "named_segment", "object": "trades/HVAC", "asserted_by": "S1", "asserted_at": "2026-08-18"},
+    {"source_doc": "ad-brief", "subject": "icp_rank.hospitality", "predicate": "lead_vertical", "object": "hospitality", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "hours_floor", "predicate": "monthly_buyable", "object": "unset", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "primary_domain", "predicate": "forbidden_for_cold", "object": "true", "asserted_by": "S2/S3", "asserted_at": "2026-08-25"}
+  ]
+}

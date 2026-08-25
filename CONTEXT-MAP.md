@@ -4,6 +4,7 @@
 
 - [Hindsight](./CONTEXT.md): the quick-start OS — skills, ingest loop, trusted resources. Not a client.
 - Engagement packs: each [`engagements/<slug>/CONTEXT.md`](./engagements/_template/CONTEXT.md) is its own context. Listed here only after ingest creates the pack.
+  - [robotics-data outbound](./engagements/mercor-robotics-data/CONTEXT.md)
 
 ## Relationships
 

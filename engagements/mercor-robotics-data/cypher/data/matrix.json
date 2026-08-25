@@ -1,0 +1,13 @@
+{
+  "cells": [
+    {"id": "hvac-owner-revenue", "subvertical": "HVAC", "persona": "owner", "angle": "owner-revenue", "wave": 1, "min_contacted": 40},
+    {"id": "hvac-tech-earnings", "subvertical": "HVAC", "persona": "tech", "angle": "tech-earnings", "wave": 1, "min_contacted": 40},
+    {"id": "tire-owner-revenue", "subvertical": "Tire & wheel", "persona": "owner", "angle": "owner-revenue", "wave": 1, "min_contacted": 40},
+    {"id": "tire-tech-earnings", "subvertical": "Tire & wheel", "persona": "tech", "angle": "tech-earnings", "wave": 1, "min_contacted": 40},
+    {"id": "pizza-owner-revenue", "subvertical": "Pizzeria / deli", "persona": "owner", "angle": "owner-revenue", "wave": 1, "min_contacted": 40},
+    {"id": "pizza-owner-retention", "subvertical": "Pizzeria / deli", "persona": "owner", "angle": "owner-retention", "wave": 1, "min_contacted": 40},
+    {"id": "motel-owner-revenue", "subvertical": "Independent motels", "persona": "owner", "angle": "owner-revenue", "wave": 2, "min_contacted": 40},
+    {"id": "motel-owner-retention", "subvertical": "Independent motels", "persona": "owner", "angle": "owner-retention", "wave": 2, "min_contacted": 40},
+    {"id": "motel-tech-earnings", "subvertical": "Independent motels", "persona": "tech", "angle": "tech-earnings", "wave": 2, "min_contacted": 40}
+  ]
+}

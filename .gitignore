@@ -4,6 +4,8 @@
 node_modules/
 .DS_Store
 *.log
+**/__pycache__/
+*.pyc
 
 # Inbox drops are local-only. Keep repository guidance visible.
 inbox/*
@@ -14,3 +16,7 @@ inbox/*
 engagements/*/raw/*
 !engagements/_template/raw/README.md
 !engagements/_template/raw/.gitignore
+
+# Corpus bytes stay local; keep the exclusion README tracked.
+engagements/*/docs/source/*
+!engagements/*/docs/source/README.md
