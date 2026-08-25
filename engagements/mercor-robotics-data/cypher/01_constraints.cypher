@@ -40,3 +40,6 @@ FOR (d:Domain) REQUIRE d.name IS UNIQUE;
 
 CREATE CONSTRAINT inbox_email IF NOT EXISTS
 FOR (i:Inbox) REQUIRE i.email IS UNIQUE;
+
+CREATE CONSTRAINT qualification_account IF NOT EXISTS
+FOR (q:Qualification) REQUIRE q.account_domain IS UNIQUE;

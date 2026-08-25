@@ -20,6 +20,8 @@
     {"source_doc": "kickoff-call", "subject": "icp_rank.trades", "predicate": "named_segment", "object": "trades/HVAC", "asserted_by": "S1", "asserted_at": "2026-08-18"},
     {"source_doc": "ad-brief", "subject": "icp_rank.hospitality", "predicate": "lead_vertical", "object": "hospitality", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
     {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "hours_floor", "predicate": "monthly_buyable", "object": "unset", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "cadence", "predicate": "sequence_days", "object": "unset", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "referral_bonus", "predicate": "amount", "object": "unset", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
     {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "primary_domain", "predicate": "forbidden_for_cold", "object": "true", "asserted_by": "S2/S3", "asserted_at": "2026-08-25"}
   ]
 }

@@ -92,10 +92,38 @@ class LoaderPrepTests(unittest.TestCase):
     def test_constraints_are_idempotent_text(self) -> None:
         stmts = statements_without_params()
         self.assertTrue(all("IF NOT EXISTS" in s for s in stmts))
+        joined = "\n".join(stmts)
+        self.assertIn("qualification_account", joined)
+        self.assertIn("outcome_variant_required", joined)
 
     def test_parameterized_payloads_exist(self) -> None:
         jobs = parameterized()
         self.assertEqual(len(jobs), 6)
+
+    def test_matrix_cells_reference_seeded_tree(self) -> None:
+        verticals = {
+            row["name"]
+            for row in json.loads((PACK / "cypher/data/verticals.json").read_text())[
+                "verticals"
+            ]
+        }
+        angles = {
+            row["name"]
+            for row in json.loads((PACK / "cypher/data/angles.json").read_text())[
+                "angles"
+            ]
+        }
+        cells = json.loads((PACK / "cypher/data/matrix.json").read_text())["cells"]
+        self.assertGreaterEqual(len(cells), 6)
+        for cell in cells:
+            self.assertIn(cell["subvertical"], verticals)
+            self.assertIn(cell["angle"], angles)
+            self.assertIn(cell["persona"], {"owner", "tech"})
+
+    def test_environments_not_invented(self) -> None:
+        env = json.loads((PACK / "cypher/data/environments.json").read_text())
+        self.assertEqual(env["environments"], [])
+        self.assertEqual(env["tasks"], [])
 
 
 @unittest.skipUnless(os.environ.get("NEO4J_URI"), "NEO4J_URI unset")

@@ -26,5 +26,6 @@ The first `Outcome` in this graph must come from a send logged with a `Variant`.
 | Diversity rank | Prior per environment | blocked |
 | Tier friction ranking | Prior | blocked |
 | Kickoff-call segments | Prior | seeded from already-published pack notes |
+| Cadence / referral bonus | competing terms as Priors | seeded as `unset` until corpus numbers land |
 
 Do not invent the 101 capture tasks. When the sheet lands, write `cypher/data/environments.json` and `cypher/data/tasks.json` and re-run `scripts/load_graph.py`.
