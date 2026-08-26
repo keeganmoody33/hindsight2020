@@ -11,4 +11,4 @@ Process lessons encoded into Hindsight. Pack-specific facts do not belong here.
 - Designated README's `Vendor refresh` section as the canonical workflow for refreshing `.agents/skills/` and `skills-lock.json` together.
 - External plan URLs (Ref and similar) are locators, not specs: stop on login wall / MCP 401; do not invent the work.
 - Untracked previously committed correspondence from HEAD and ignore inbox/raw paths. A current-tree delete is not a history purge; the owner still has to decide whether history and forks need remediation.
-- Pack-local graph Context OS: Priors (not facts), no uninstrumented outcomes, send/inbox guardrails in owned skills. Taxonomy sheet still required for the 15×101 environment spine. Cadence and referral bonus load as `unset` until the corpus states numbers.
+- Pack-local graph Context OS: Priors (not facts), no uninstrumented outcomes, send/inbox guardrails in owned skills. After an explicit distribution yes, load a sanitized environment × task extract as untested Priors; keep competing rates and inventory counts unresolved.

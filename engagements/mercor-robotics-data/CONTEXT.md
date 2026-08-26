@@ -31,3 +31,11 @@ _Avoid_: headcount as a substitute for hours
 **Probe**:
 Manual, low-volume sends from an existing mailbox, logged like any campaign.
 _Avoid_: cold sequencer on a fresh domain
+
+**Approved hour**:
+Recording a meaningful task with hands in view. Break, lounging, and idle time do not count [S10]. Untested.
+_Avoid_: treating clocked shift hours as billable
+
+**Diversity rank**:
+S11 sheet order of 15 commercial environments. Competes with kickoff-call segments and ad-brief hospitality-first [S11][S1][REF]. Untested.
+_Avoid_: treating rank 1 as the outbound wave-1 target without a Hypothesis
