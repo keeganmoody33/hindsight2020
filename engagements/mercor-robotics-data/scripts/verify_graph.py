@@ -85,7 +85,22 @@ class PriorKeyTests(unittest.TestCase):
             and p["predicate"] == "signed_environments_weeks"
         ]
         self.assertGreaterEqual(len(timeline), 2)
-        self.assertEqual(len({p["object"] for p in timeline}), len(timeline))
+        self.assertIn("7-8", {p["object"] for p in timeline})
+        self.assertIn("2-3", {p["object"] for p in timeline})
+        sources = {p["source_doc"] for p in timeline}
+        self.assertGreaterEqual(len(sources), 2)
+
+    def test_construction_tier_priors_compete(self) -> None:
+        priors = json.loads(
+            (PACK / "cypher/data/priors_terms.json").read_text()
+        )["priors"]
+        construction = [
+            p
+            for p in priors
+            if p["subject"] == "tier.construction" and p["predicate"] == "letter"
+        ]
+        self.assertGreaterEqual(len(construction), 2)
+        self.assertEqual(len({p["object"] for p in construction}), len(construction))
 
 
 class LoaderPrepTests(unittest.TestCase):
@@ -120,10 +135,15 @@ class LoaderPrepTests(unittest.TestCase):
             self.assertIn(cell["angle"], angles)
             self.assertIn(cell["persona"], {"owner", "tech"})
 
-    def test_environments_not_invented(self) -> None:
+    def test_environments_from_s11_sheet(self) -> None:
         env = json.loads((PACK / "cypher/data/environments.json").read_text())
-        self.assertEqual(env["environments"], [])
-        self.assertEqual(env["tasks"], [])
+        self.assertEqual(len(env["environments"]), 15)
+        self.assertEqual(len(env["tasks"]), 101)
+        ranks = [row["diversity_rank"] for row in env["environments"]]
+        self.assertEqual(sorted(ranks), list(range(1, 16)))
+        env_names = {row["name"] for row in env["environments"]}
+        for task in env["tasks"]:
+            self.assertIn(task["environment"], env_names)
 
 
 @unittest.skipUnless(os.environ.get("NEO4J_URI"), "NEO4J_URI unset")
@@ -181,8 +201,8 @@ class LiveGraphTests(unittest.TestCase):
         finally:
             driver.close()
         self.assertGreaterEqual(len(rows), 2)
-        self.assertEqual(env_n["n"], 0)
-        self.assertEqual(task_n["n"], 0)
+        self.assertEqual(env_n["n"], 15)
+        self.assertEqual(task_n["n"], 101)
 
 
 if __name__ == "__main__":

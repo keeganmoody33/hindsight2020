@@ -18,6 +18,7 @@ Pack-local Context OS: Neo4j graph + skills that instrument every send. Hindsigh
 ## Hard lines
 
 - No historical outcomes.
-- No franchise-list ingest.
+- No franchise-list ingest (S14). No form-export or lead-list ingest (S8, S9, S17, S18).
 - No send from an unwarmed inbox; no campaign without a Hypothesis.
 - Domain purchase and live sends are human tasks (Task 4 / Task 5). This pack tracks them; it does not execute them.
+- Sheet rankings and rates from the team dump are untested Priors.

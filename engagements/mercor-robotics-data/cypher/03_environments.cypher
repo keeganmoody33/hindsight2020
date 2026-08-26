@@ -1,6 +1,5 @@
 // Environment × Task spine. Loaded from $environments and $tasks.
-// Expected production counts: 15 environments, 101 tasks.
-// Empty lists are valid until the Commercial Environments sheet is dropped.
+// Production counts from S11: 15 environments, 101 tasks. Untested Priors.
 UNWIND $environments AS env
 MERGE (e:Environment {name: env.name})
 SET e.diversity_rank = env.diversity_rank

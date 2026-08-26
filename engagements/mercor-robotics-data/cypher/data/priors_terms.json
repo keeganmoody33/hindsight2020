@@ -22,6 +22,23 @@
     {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "hours_floor", "predicate": "monthly_buyable", "object": "unset", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
     {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "cadence", "predicate": "sequence_days", "object": "unset", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
     {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "referral_bonus", "predicate": "amount", "object": "unset", "asserted_by": "ref-plan", "asserted_at": "2026-08-25"},
-    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "primary_domain", "predicate": "forbidden_for_cold", "object": "true", "asserted_by": "S2/S3", "asserted_at": "2026-08-25"}
+    {"source_doc": "ref-plan-hBjIlnu0Rhj3mxvr", "subject": "primary_domain", "predicate": "forbidden_for_cold", "object": "true", "asserted_by": "S2/S3", "asserted_at": "2026-08-25"},
+    {"source_doc": "S10", "subject": "timeline", "predicate": "signed_environments_weeks", "object": "2-3", "asserted_by": "S10", "asserted_at": "2026-08-24"},
+    {"source_doc": "S10", "subject": "engagement_size", "predicate": "hours_per_environment_start", "object": "100+", "asserted_by": "S10", "asserted_at": "2026-08-24"},
+    {"source_doc": "S15", "subject": "engagement_size", "predicate": "required_minimum_hours", "object": "none", "asserted_by": "S15", "asserted_at": "2026-08-18"},
+    {"source_doc": "S10", "subject": "capture_ratio", "predicate": "approved_hours_per_8h_shift", "object": "4-6", "asserted_by": "S10", "asserted_at": "2026-08-24"},
+    {"source_doc": "S10", "subject": "tier.construction", "predicate": "letter", "object": "A", "asserted_by": "S10", "asserted_at": "2026-08-24"},
+    {"source_doc": "S13", "subject": "tier.construction", "predicate": "letter", "object": "C", "asserted_by": "S13", "asserted_at": "2026-08-24"},
+    {"source_doc": "S10", "subject": "referral_bonus", "predicate": "amount", "object": "100-250", "asserted_by": "S10", "asserted_at": "2026-08-24"},
+    {"source_doc": "S13", "subject": "referral_bonus", "predicate": "amount", "object": "50-400", "asserted_by": "S13", "asserted_at": "2026-08-24"},
+    {"source_doc": "S13", "subject": "rate", "predicate": "starts_at", "object": "12", "asserted_by": "S13", "asserted_at": "2026-08-24"},
+    {"source_doc": "S15", "subject": "rate", "predicate": "stated_to_owner_low", "object": "12", "asserted_by": "S15", "asserted_at": "2026-08-18"},
+    {"source_doc": "S15", "subject": "rate", "predicate": "stated_to_owner_high", "object": "18", "asserted_by": "S15", "asserted_at": "2026-08-18"},
+    {"source_doc": "S10", "subject": "rate.tier_C", "predicate": "per_approved_hour", "object": "12", "asserted_by": "S10", "asserted_at": "2026-08-24"},
+    {"source_doc": "S10", "subject": "rate.tier_B", "predicate": "per_approved_hour", "object": "15", "asserted_by": "S10", "asserted_at": "2026-08-24"},
+    {"source_doc": "S10", "subject": "rate.tier_A", "predicate": "per_approved_hour", "object": "20", "asserted_by": "S10", "asserted_at": "2026-08-24"},
+    {"source_doc": "S11", "subject": "environment_inventory", "predicate": "sheet_count", "object": "15", "asserted_by": "S11", "asserted_at": "2026-08-24"},
+    {"source_doc": "S10", "subject": "environment_inventory", "predicate": "appendix_count", "object": "17", "asserted_by": "S10", "asserted_at": "2026-08-24"},
+    {"source_doc": "S11", "subject": "icp_rank.diversity_sheet", "predicate": "first_environment", "object": "Event Venue", "asserted_by": "S11", "asserted_at": "2026-08-24"}
   ]
 }

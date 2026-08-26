@@ -1,5 +1,516 @@
 {
-  "environments": [],
-  "tasks": [],
-  "note": "Blocked on Commercial Environments sheet. Do not invent 15×101 rows. Loader accepts empty lists."
+  "environments": [
+    {
+      "name": "Event Venue",
+      "diversity_rank": 1,
+      "source_doc": "S11",
+      "asserted_by": "S11",
+      "asserted_at": "2026-08-24"
+    },
+    {
+      "name": "Retail Store \u2014 Back of House",
+      "diversity_rank": 2,
+      "source_doc": "S11",
+      "asserted_by": "S11",
+      "asserted_at": "2026-08-24"
+    },
+    {
+      "name": "Active Construction Site",
+      "diversity_rank": 3,
+      "source_doc": "S11",
+      "asserted_by": "S11",
+      "asserted_at": "2026-08-24"
+    },
+    {
+      "name": "Agriculture / Farm Work / Landscaping",
+      "diversity_rank": 4,
+      "source_doc": "S11",
+      "asserted_by": "S11",
+      "asserted_at": "2026-08-24"
+    },
+    {
+      "name": "Personal Care / Grooming Services",
+      "diversity_rank": 5,
+      "source_doc": "S11",
+      "asserted_by": "S11",
+      "asserted_at": "2026-08-24"
+    },
+    {
+      "name": "Trade Service (Plumbing / HVAC / Electrical)",
+      "diversity_rank": 6,
+      "source_doc": "S11",
+      "asserted_by": "S11",
+      "asserted_at": "2026-08-24"
+    },
+    {
+      "name": "Hotel & Lodging",
+      "diversity_rank": 7,
+      "source_doc": "S11",
+      "asserted_by": "S11",
+      "asserted_at": "2026-08-24"
+    },
+    {
+      "name": "Auto Service, Tire Shop & Car Wash",
+      "diversity_rank": 8,
+      "source_doc": "S11",
+      "asserted_by": "S11",
+      "asserted_at": "2026-08-24"
+    },
+    {
+      "name": "Carpentry & Furniture Workshop",
+      "diversity_rank": 9,
+      "source_doc": "S11",
+      "asserted_by": "S11",
+      "asserted_at": "2026-08-24"
+    },
+    {
+      "name": "Restaurant & Commercial Kitchen",
+      "diversity_rank": 10,
+      "source_doc": "S11",
+      "asserted_by": "S11",
+      "asserted_at": "2026-08-24"
+    },
+    {
+      "name": "Commercial Cleaning & Janitorial",
+      "diversity_rank": 11,
+      "source_doc": "S11",
+      "asserted_by": "S11",
+      "asserted_at": "2026-08-24"
+    },
+    {
+      "name": "Food & Beverage Manufacturing Plant",
+      "diversity_rank": 12,
+      "source_doc": "S11",
+      "asserted_by": "S11",
+      "asserted_at": "2026-08-24"
+    },
+    {
+      "name": "Warehouse & Distribution Center",
+      "diversity_rank": 13,
+      "source_doc": "S11",
+      "asserted_by": "S11",
+      "asserted_at": "2026-08-24"
+    },
+    {
+      "name": "Plastic & Light-Assembly Manufacturer",
+      "diversity_rank": 14,
+      "source_doc": "S11",
+      "asserted_by": "S11",
+      "asserted_at": "2026-08-24"
+    },
+    {
+      "name": "Metal Fabrication & Welding Workshop",
+      "diversity_rank": 15,
+      "source_doc": "S11",
+      "asserted_by": "S11",
+      "asserted_at": "2026-08-24"
+    }
+  ],
+  "tasks": [
+    {
+      "environment": "Event Venue",
+      "name": "Trash & Recycling Sweep"
+    },
+    {
+      "environment": "Event Venue",
+      "name": "Stage & Equipment Setup / Teardown"
+    },
+    {
+      "environment": "Event Venue",
+      "name": "Table & Chair Arrangement"
+    },
+    {
+      "environment": "Event Venue",
+      "name": "AV & Cable Management"
+    },
+    {
+      "environment": "Retail Store \u2014 Back of House",
+      "name": "Retail Stocking Back of House"
+    },
+    {
+      "environment": "Retail Store \u2014 Back of House",
+      "name": "Backroom Organization"
+    },
+    {
+      "environment": "Retail Store \u2014 Back of House",
+      "name": "Shelf Restocking & Facing"
+    },
+    {
+      "environment": "Retail Store \u2014 Back of House",
+      "name": "Damaged-Goods Sorting"
+    },
+    {
+      "environment": "Retail Store \u2014 Back of House",
+      "name": "Cart & Basket Retrieval"
+    },
+    {
+      "environment": "Retail Store \u2014 Back of House",
+      "name": "Price Tagging & Signage"
+    },
+    {
+      "environment": "Active Construction Site",
+      "name": "Construction Site Cleanup & Debris Removal"
+    },
+    {
+      "environment": "Active Construction Site",
+      "name": "Construction General Skilled Trades"
+    },
+    {
+      "environment": "Active Construction Site",
+      "name": "Drywall Hanging, Taping & Mudding"
+    },
+    {
+      "environment": "Active Construction Site",
+      "name": "Insulation Installation"
+    },
+    {
+      "environment": "Active Construction Site",
+      "name": "Painting & Priming"
+    },
+    {
+      "environment": "Agriculture / Farm Work / Landscaping",
+      "name": "Agriculture Landscaping & Groundskeeping"
+    },
+    {
+      "environment": "Agriculture / Farm Work / Landscaping",
+      "name": "Agriculture Hand Harvesting"
+    },
+    {
+      "environment": "Agriculture / Farm Work / Landscaping",
+      "name": "Agriculture Planting & Transplanting"
+    },
+    {
+      "environment": "Agriculture / Farm Work / Landscaping",
+      "name": "Feeding & Watering Rounds"
+    },
+    {
+      "environment": "Agriculture / Farm Work / Landscaping",
+      "name": "Tractor & Implement Operation"
+    },
+    {
+      "environment": "Agriculture / Farm Work / Landscaping",
+      "name": "Animal Pen Cleaning & Waste Removal"
+    },
+    {
+      "environment": "Agriculture / Farm Work / Landscaping",
+      "name": "Crop Sorting & Grading"
+    },
+    {
+      "environment": "Agriculture / Farm Work / Landscaping",
+      "name": "Field Crate Loading & Hauling"
+    },
+    {
+      "environment": "Agriculture / Farm Work / Landscaping",
+      "name": "Greenhouse / Nursery Tending"
+    },
+    {
+      "environment": "Agriculture / Farm Work / Landscaping",
+      "name": "Egg Collection & Candling"
+    },
+    {
+      "environment": "Agriculture / Farm Work / Landscaping",
+      "name": "Irrigation Setup & Repair"
+    },
+    {
+      "environment": "Personal Care / Grooming Services",
+      "name": "Hair Cutting & Trimming"
+    },
+    {
+      "environment": "Personal Care / Grooming Services",
+      "name": "Manicure & Pedicure Service"
+    },
+    {
+      "environment": "Trade Service (Plumbing / HVAC / Electrical)",
+      "name": "Plumbing Fixture Installation"
+    },
+    {
+      "environment": "Trade Service (Plumbing / HVAC / Electrical)",
+      "name": "HVAC Equipment Installation"
+    },
+    {
+      "environment": "Trade Service (Plumbing / HVAC / Electrical)",
+      "name": "Drain Snaking & Clearing"
+    },
+    {
+      "environment": "Trade Service (Plumbing / HVAC / Electrical)",
+      "name": "Water Heater Replacement"
+    },
+    {
+      "environment": "Trade Service (Plumbing / HVAC / Electrical)",
+      "name": "Filter Swap & System Tune-Up"
+    },
+    {
+      "environment": "Trade Service (Plumbing / HVAC / Electrical)",
+      "name": "Thermostat & Control Wiring"
+    },
+    {
+      "environment": "Trade Service (Plumbing / HVAC / Electrical)",
+      "name": "Outlet & Fixture Wiring"
+    },
+    {
+      "environment": "Hotel & Lodging",
+      "name": "Soiled-Linen Sorting & Loading"
+    },
+    {
+      "environment": "Hotel & Lodging",
+      "name": "Lobby & Common-Area Cleaning"
+    },
+    {
+      "environment": "Hotel & Lodging",
+      "name": "Hospitality Housekeeping"
+    },
+    {
+      "environment": "Hotel & Lodging",
+      "name": "Hotel Amenity Restocking"
+    },
+    {
+      "environment": "Hotel & Lodging",
+      "name": "Hotel Bathroom Deep Clean"
+    },
+    {
+      "environment": "Hotel & Lodging",
+      "name": "Pool & Spa Area Maintenance"
+    },
+    {
+      "environment": "Hotel & Lodging",
+      "name": "Luggage Handling"
+    },
+    {
+      "environment": "Hotel & Lodging",
+      "name": "Room Turnover & Inspection"
+    },
+    {
+      "environment": "Hotel & Lodging",
+      "name": "Industrial Washer/Dryer Operation"
+    },
+    {
+      "environment": "Hotel & Lodging",
+      "name": "Hotel Bed Making"
+    },
+    {
+      "environment": "Hotel & Lodging",
+      "name": "Ironing & Folding"
+    },
+    {
+      "environment": "Auto Service, Tire Shop & Car Wash",
+      "name": "Automotive Service & Maintenance"
+    },
+    {
+      "environment": "Auto Service, Tire Shop & Car Wash",
+      "name": "Tire Dismount & Mount"
+    },
+    {
+      "environment": "Auto Service, Tire Shop & Car Wash",
+      "name": "Oil & Fluid Change"
+    },
+    {
+      "environment": "Auto Service, Tire Shop & Car Wash",
+      "name": "Pre-Soak & Wash"
+    },
+    {
+      "environment": "Auto Service, Tire Shop & Car Wash",
+      "name": "Wheel Balancing"
+    },
+    {
+      "environment": "Auto Service, Tire Shop & Car Wash",
+      "name": "Filter & Component Replacement"
+    },
+    {
+      "environment": "Auto Service, Tire Shop & Car Wash",
+      "name": "Brake Pad & Rotor Service"
+    },
+    {
+      "environment": "Auto Service, Tire Shop & Car Wash",
+      "name": "Tire Rotation & Pressure Check"
+    },
+    {
+      "environment": "Auto Service, Tire Shop & Car Wash",
+      "name": "Battery Test & Replacement"
+    },
+    {
+      "environment": "Auto Service, Tire Shop & Car Wash",
+      "name": "Interior Vacuuming"
+    },
+    {
+      "environment": "Auto Service, Tire Shop & Car Wash",
+      "name": "Hand Drying & Buffing"
+    },
+    {
+      "environment": "Auto Service, Tire Shop & Car Wash",
+      "name": "Wheel & Tire Dressing"
+    },
+    {
+      "environment": "Carpentry & Furniture Workshop",
+      "name": "Hardware Installation"
+    },
+    {
+      "environment": "Carpentry & Furniture Workshop",
+      "name": "Furniture Assembly & Joinery"
+    },
+    {
+      "environment": "Carpentry & Furniture Workshop",
+      "name": "Woodworking"
+    },
+    {
+      "environment": "Carpentry & Furniture Workshop",
+      "name": "Wood Cutting & Shaping"
+    },
+    {
+      "environment": "Carpentry & Furniture Workshop",
+      "name": "Sanding & Surface Prep"
+    },
+    {
+      "environment": "Carpentry & Furniture Workshop",
+      "name": "Staining & Finishing"
+    },
+    {
+      "environment": "Carpentry & Furniture Workshop",
+      "name": "Veneer Lamination & Pressing"
+    },
+    {
+      "environment": "Restaurant & Commercial Kitchen",
+      "name": "Restaurant Kitchen Deep Clean"
+    },
+    {
+      "environment": "Restaurant & Commercial Kitchen",
+      "name": "Restaurant Dishwashing"
+    },
+    {
+      "environment": "Restaurant & Commercial Kitchen",
+      "name": "Trash & Recycling Removal in Kitchen"
+    },
+    {
+      "environment": "Restaurant & Commercial Kitchen",
+      "name": "Food Prep"
+    },
+    {
+      "environment": "Restaurant & Commercial Kitchen",
+      "name": "Restaurant Line Setup & Breakdown"
+    },
+    {
+      "environment": "Restaurant & Commercial Kitchen",
+      "name": "Kitchen Meal Portioning & Packaging"
+    },
+    {
+      "environment": "Restaurant & Commercial Kitchen",
+      "name": "Cooking / Line Cooking"
+    },
+    {
+      "environment": "Commercial Cleaning & Janitorial",
+      "name": "Commercial Cleaning & Janitorial"
+    },
+    {
+      "environment": "Commercial Cleaning & Janitorial",
+      "name": "Event Restroom Sanitation"
+    },
+    {
+      "environment": "Commercial Cleaning & Janitorial",
+      "name": "Drain Clearing & Cleanup"
+    },
+    {
+      "environment": "Commercial Cleaning & Janitorial",
+      "name": "Restroom Restock & Disinfection"
+    },
+    {
+      "environment": "Commercial Cleaning & Janitorial",
+      "name": "Floor Stripping & Waxing"
+    },
+    {
+      "environment": "Commercial Cleaning & Janitorial",
+      "name": "Carpet Extraction"
+    },
+    {
+      "environment": "Commercial Cleaning & Janitorial",
+      "name": "Window & Glass Cleaning"
+    },
+    {
+      "environment": "Food & Beverage Manufacturing Plant",
+      "name": "QA / Foreign-Object Inspection"
+    },
+    {
+      "environment": "Food & Beverage Manufacturing Plant",
+      "name": "Production Line Operation"
+    },
+    {
+      "environment": "Food & Beverage Manufacturing Plant",
+      "name": "Packaging & Sealing"
+    },
+    {
+      "environment": "Food & Beverage Manufacturing Plant",
+      "name": "Sanitation Washdown"
+    },
+    {
+      "environment": "Warehouse & Distribution Center",
+      "name": "Order Picking"
+    },
+    {
+      "environment": "Warehouse & Distribution Center",
+      "name": "Packing & Labeling"
+    },
+    {
+      "environment": "Warehouse & Distribution Center",
+      "name": "Receiving & Unloading"
+    },
+    {
+      "environment": "Warehouse & Distribution Center",
+      "name": "Loading Outbound Trucks"
+    },
+    {
+      "environment": "Warehouse & Distribution Center",
+      "name": "Cycle Counting & Inventory"
+    },
+    {
+      "environment": "Warehouse & Distribution Center",
+      "name": "Returns Processing"
+    },
+    {
+      "environment": "Plastic & Light-Assembly Manufacturer",
+      "name": "Light Manufacturing & Assembly"
+    },
+    {
+      "environment": "Plastic & Light-Assembly Manufacturer",
+      "name": "Injection-Molding Machine Tending"
+    },
+    {
+      "environment": "Plastic & Light-Assembly Manufacturer",
+      "name": "Plastic Chair Manufacturing"
+    },
+    {
+      "environment": "Plastic & Light-Assembly Manufacturer",
+      "name": "Trimming & Deflashing Parts"
+    },
+    {
+      "environment": "Plastic & Light-Assembly Manufacturer",
+      "name": "Boxing & Palletizing Finished Goods"
+    },
+    {
+      "environment": "Plastic & Light-Assembly Manufacturer",
+      "name": "In-Line Quality Inspection"
+    },
+    {
+      "environment": "Metal Fabrication & Welding Workshop",
+      "name": "Metal Fabrication"
+    },
+    {
+      "environment": "Metal Fabrication & Welding Workshop",
+      "name": "Welding"
+    },
+    {
+      "environment": "Metal Fabrication & Welding Workshop",
+      "name": "Pipe Cutting & Fitting"
+    },
+    {
+      "environment": "Metal Fabrication & Welding Workshop",
+      "name": "Grinding & Deburring"
+    },
+    {
+      "environment": "Metal Fabrication & Welding Workshop",
+      "name": "Part Layout & Marking"
+    },
+    {
+      "environment": "Metal Fabrication & Welding Workshop",
+      "name": "Weld Inspection & Cleanup"
+    }
+  ],
+  "note": "Extracted from S11 Commercial Environments sheet. Untested Priors. Do not treat as ground truth."
 }
